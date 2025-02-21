@@ -236,34 +236,7 @@ header .nav-links a:hover {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
-/* Certification Section */
-.certification {
-    background: #fff;
-    padding: 60px 20px;
-    text-align: center;
-}
 
-.certification h5 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.certification .certificate {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.certification img {
-    max-width: 50%; /* Resized certificate */
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.certification p {
-    font-size: 1.2rem;
-}
 
 /* Contact Section */
 .contact {
