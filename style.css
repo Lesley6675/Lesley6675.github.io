@@ -167,6 +167,7 @@ header .nav-links a:hover {
     background: #f4f4f4;
     border: 1px solid #ddd;
     padding: 20px;
+    margin: 15px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -174,8 +175,8 @@ header .nav-links a:hover {
 }
 
 .services-section .card h3 {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .services-section .card p {
@@ -188,58 +189,12 @@ header .nav-links a:hover {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
-
-
-/* Portfolio Section */
-.portfolio-section {
-    background: #fff;
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.portfolio-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-}
-
-.portfolio-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.portfolio-section ul li {
-    margin-bottom: 10px;
-}
-
-.portfolio-section ul li a {
-    color: #4e4e4e;
-    font-size: 1.2rem;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.portfolio-section ul li a:hover {
-    color: #777;
-}
-
-/* Elevator Pitch Section */
-.elevator-pitch {
-    background: #f4f4f4;
-    padding: 60px 20px;
-    text-align: center;
-}
-
-
-.elevator-pitch h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.elevator-pitch p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    max-width: 800px;
-    margin: 0 auto;
+/* Certificate Image */
+.certificate-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 50%; 
 }
 
 
@@ -302,30 +257,9 @@ header .nav-links a:hover {
     margin: 0 auto;
 }
 
-.contact-content input,
-.contact-content textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1rem;
-}
 
-.contact-content button {
-    background-color: #4e4e4e;
-    color: #fff;
-    padding: 12px 20px;
-    border: none;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
 
-.contact-content button:hover {
-    background-color: #777;
-}
+
 
 /* Footer */
 footer {
@@ -351,6 +285,5 @@ footer .social-links a {
 footer .social-links a:hover {
     color: #f4f4f4;
 }
-
 
 
